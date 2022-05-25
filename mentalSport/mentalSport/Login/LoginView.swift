@@ -13,11 +13,6 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 16) {
-                //Text("Accede a MentalSport")
-
-                /*Text("Los Netflix del fitness han llegado a nuestra vida para quedarse. Una selección de las mejores plataformas de vídeos en español para hacer clases online de barre, HIIT, pilates…")
-
-                 Text("¡Ponte fit con el catálogo más grande de rutinas en español! Elige entre más de 1,000 clases on demand para ponerte en forma mientras te diviertes.")*/
 
                 Image("userPicture")
                     .frame(width: 100, height: 100)

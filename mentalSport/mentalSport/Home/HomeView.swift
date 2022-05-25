@@ -15,7 +15,6 @@ struct HomeView: View {
                                    .resizable()
                                    .frame(width: 250, height: 150, alignment: .center)
                         Text(item.description)
-                            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo sodales, ornare nulla sit amet, dapibus sem. Nunc non odio dapibus, sollicitudin mi sed, iaculis ex.")
                         }
                     VStack(alignment: .center) {
                         Button(buttonText) {
@@ -40,7 +39,7 @@ struct HomeView: View {
     }
 
     func loadData() {
-        guard let url = URL(string: "http://projectefinalmarclamolla.alumnes.inspedralbes.cat/datos.json") else {
+        guard let url = URL(string: "http://projectefinalmarclamolla.alumnes.inspedralbes.cat/dades.json") else {
             print("Your API end point is invalid")
             return
         }
