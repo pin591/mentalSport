@@ -1,0 +1,79 @@
+{
+    "activities": [
+
+        {
+            "id": "1",
+
+            "name": "Sala fitness",
+
+            "description": "Ponte fuerte",
+
+            "hours": 10,
+
+            "minutes": 15,
+
+            "activityRoom": "Sala 1",
+
+            "duration": 30,
+
+            "requieredLevel": 5000
+        },
+
+        {
+
+           "id": "2",
+
+           "name": "Zumba",
+
+           "description": "Baila",
+
+           "hours": 11,
+
+           "minutes": 30,
+
+           "activityRoom": "Sala 2",
+
+           "duration": 30,
+
+           "requieredLevel": 1000
+        },
+
+        {
+
+           "id": "3",
+
+           "name": "Pilates",
+
+           "description": "Estirate",
+
+           "hours": 12,
+
+           "minutes": 45,
+
+           "activityRoom": "Sala 1",
+
+           "duration": 40,
+
+           "requieredLevel": 1000
+        },
+
+        {
+
+           "id": "4",
+
+           "name": "Sala fitness",
+
+           "description": "Ponte fuerte",
+
+           "hours": 13,
+
+           "minutes": 10,
+
+           "activityRoom": "Sala 2",
+
+           "duration": 30,
+
+           "requieredLevel": 1000
+        }
+    ]
+}

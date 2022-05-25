@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55068F01283A37AF001CC3CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55068F00283A37AF001CC3CC /* User.swift */; };
+		550C8FD128342073003FEB2E /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 550C8FD028342073003FEB2E /* users.json */; };
+		554300DD2822FCB800979113 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554300DC2822FCB800979113 /* HomeView.swift */; };
+		5562E381282EBC5B00DA1ECF /* mentalSportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5562E37F282EBC5B00DA1ECF /* mentalSportApp.swift */; };
+		5562E382282EBEC600DA1ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5562E380282EBC5B00DA1ECF /* Assets.xcassets */; };
+		5562E384282EC6E900DA1ECF /* ApiGymDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5562E383282EC6E900DA1ECF /* ApiGymDataSource.swift */; };
+		558FBBB32825842600B1B1B2 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558FBBB22825842600B1B1B2 /* RegisterView.swift */; };
+		558FBBB52826700D00B1B1B2 /* CustomSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558FBBB42826700D00B1B1B2 /* CustomSettings.swift */; };
+		558FBBB728267B1100B1B1B2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558FBBB628267B1100B1B1B2 /* MainView.swift */; };
+		558FBBB92826812500B1B1B2 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558FBBB82826812500B1B1B2 /* BookingView.swift */; };
+		55B66D3D282AD8F2007D3729 /* datos.json in Sources */ = {isa = PBXBuildFile; fileRef = 55B66D3C282AD8F2007D3729 /* datos.json */; };
+		55B66D41282ADF16007D3729 /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B66D40282ADF16007D3729 /* RankView.swift */; };
+		55BB89FD282992FC00D75A09 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB89FC282992FC00D75A09 /* Activity.swift */; };
+		55F20536282052330042F877 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F20535282052330042F877 /* LoginView.swift */; };
+		55F2053B282052340042F877 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F2053A282052340042F877 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55068F00283A37AF001CC3CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		550C8FD028342073003FEB2E /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		554300DC2822FCB800979113 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5562E37F282EBC5B00DA1ECF /* mentalSportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalSportApp.swift; sourceTree = "<group>"; };
+		5562E380282EBC5B00DA1ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5562E383282EC6E900DA1ECF /* ApiGymDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiGymDataSource.swift; sourceTree = "<group>"; };
+		5562E385282ED4FC00DA1ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		558FBBB22825842600B1B1B2 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		558FBBB42826700D00B1B1B2 /* CustomSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSettings.swift; sourceTree = "<group>"; };
+		558FBBB628267B1100B1B1B2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		558FBBB82826812500B1B1B2 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		55B66D3C282AD8F2007D3729 /* datos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datos.json; sourceTree = "<group>"; };
+		55B66D40282ADF16007D3729 /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
+		55BB89FC282992FC00D75A09 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		55F20530282052330042F877 /* mentalSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mentalSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F20535282052330042F877 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		55F2053A282052340042F877 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F2052D282052330042F877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5562E377282EBA7A00DA1ECF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				554300DC2822FCB800979113 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5562E378282EBAD700DA1ECF /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				558FBBB22825842600B1B1B2 /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		5562E379282EBAF200DA1ECF /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				55B66D40282ADF16007D3729 /* RankView.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		5562E37A282EBB4200DA1ECF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				55F20535282052330042F877 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5562E37B282EBB6F00DA1ECF /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				558FBBB82826812500B1B1B2 /* BookingView.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		5562E37C282EBBD500DA1ECF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				558FBBB42826700D00B1B1B2 /* CustomSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		55F20527282052330042F877 = {
+			isa = PBXGroup;
+			children = (
+				55F20532282052330042F877 /* mentalSport */,
+				55F20531282052330042F877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F20531282052330042F877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F20530282052330042F877 /* mentalSport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F20532282052330042F877 /* mentalSport */ = {
+			isa = PBXGroup;
+			children = (
+				5562E385282ED4FC00DA1ECF /* Info.plist */,
+				5562E37F282EBC5B00DA1ECF /* mentalSportApp.swift */,
+				5562E380282EBC5B00DA1ECF /* Assets.xcassets */,
+				558FBBB628267B1100B1B1B2 /* MainView.swift */,
+				5562E37C282EBBD500DA1ECF /* Settings */,
+				5562E37B282EBB6F00DA1ECF /* Booking */,
+				5562E37A282EBB4200DA1ECF /* Login */,
+				5562E379282EBAF200DA1ECF /* Ranking */,
+				5562E378282EBAD700DA1ECF /* Register */,
+				5562E377282EBA7A00DA1ECF /* Home */,
+				55B66D3C282AD8F2007D3729 /* datos.json */,
+				550C8FD028342073003FEB2E /* users.json */,
+				55BB89FC282992FC00D75A09 /* Activity.swift */,
+				55068F00283A37AF001CC3CC /* User.swift */,
+				55F20539282052340042F877 /* Preview Content */,
+				5562E383282EC6E900DA1ECF /* ApiGymDataSource.swift */,
+			);
+			path = mentalSport;
+			sourceTree = "<group>";
+		};
+		55F20539282052340042F877 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55F2053A282052340042F877 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F2052F282052330042F877 /* mentalSport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F2053E282052340042F877 /* Build configuration list for PBXNativeTarget "mentalSport" */;
+			buildPhases = (
+				55F2052C282052330042F877 /* Sources */,
+				55F2052D282052330042F877 /* Frameworks */,
+				55F2052E282052330042F877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mentalSport;
+			productName = mentalSport;
+			productReference = 55F20530282052330042F877 /* mentalSport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F20528282052330042F877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					55F2052F282052330042F877 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 55F2052B282052330042F877 /* Build configuration list for PBXProject "mentalSport" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F20527282052330042F877;
+			productRefGroup = 55F20531282052330042F877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F2052F282052330042F877 /* mentalSport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F2052E282052330042F877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550C8FD128342073003FEB2E /* users.json in Resources */,
+				5562E382282EBEC600DA1ECF /* Assets.xcassets in Resources */,
+				55F2053B282052340042F877 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F2052C282052330042F877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554300DD2822FCB800979113 /* HomeView.swift in Sources */,
+				558FBBB728267B1100B1B1B2 /* MainView.swift in Sources */,
+				55B66D3D282AD8F2007D3729 /* datos.json in Sources */,
+				5562E381282EBC5B00DA1ECF /* mentalSportApp.swift in Sources */,
+				5562E384282EC6E900DA1ECF /* ApiGymDataSource.swift in Sources */,
+				558FBBB92826812500B1B1B2 /* BookingView.swift in Sources */,
+				558FBBB32825842600B1B1B2 /* RegisterView.swift in Sources */,
+				558FBBB52826700D00B1B1B2 /* CustomSettings.swift in Sources */,
+				55068F01283A37AF001CC3CC /* User.swift in Sources */,
+				55B66D41282ADF16007D3729 /* RankView.swift in Sources */,
+				55F20536282052330042F877 /* LoginView.swift in Sources */,
+				55BB89FD282992FC00D75A09 /* Activity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55F2053C282052340042F877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F2053D282052340042F877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F2053F282052340042F877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "mentalSport/Assets.xcassets mentalSport/Preview\\ Content";
+				DEVELOPMENT_TEAM = 4N3XZMZ72C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mentalSport/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.developin.mentalSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55F20540282052340042F877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "mentalSport/Assets.xcassets mentalSport/Preview\\ Content";
+				DEVELOPMENT_TEAM = 4N3XZMZ72C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mentalSport/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.developin.mentalSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F2052B282052330042F877 /* Build configuration list for PBXProject "mentalSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F2053C282052340042F877 /* Debug */,
+				55F2053D282052340042F877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F2053E282052340042F877 /* Build configuration list for PBXNativeTarget "mentalSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F2053F282052340042F877 /* Debug */,
+				55F20540282052340042F877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F20528282052330042F877 /* Project object */;
+}

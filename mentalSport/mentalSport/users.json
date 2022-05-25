@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+            "id": "1",
+
+            "name": "Marc",
+
+            "surname": "Lamolla",
+
+            "email": "mlamolla@gmail.com",
+
+            "username": "Mlamolla",
+
+            "password": "123",
+
+            "phone": "123456789",
+
+            "country": "Barcelona"
+        }
+    ]
+}
